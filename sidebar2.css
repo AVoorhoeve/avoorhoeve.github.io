@@ -1,14 +1,19 @@
 /* top navbar */
+.topnavbar {
+  position: fixed;
+  width: 100%;
+}
 
 body {
   margin: 0;
   padding: 0;
   
-    background-image: url('');
+    background-image: url('/pictures/cyberpunk gif.gif');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: fixed;
+    background-size: 1550px 850px;
     background-color: black;
+    
   }
 
 nav{
@@ -26,7 +31,7 @@ li {
 }
 .logo img {
   position: absolute;
-  margin-top: ppx;
+  margin-top: 0px;
   margin-left: 0px;
 }
 marquee {
@@ -57,15 +62,13 @@ table {
   height: 100%;
   width: 100%;
  }
- style {
-  background-color: #000;
- }
+
  tr {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.962);
  }
  th {
-  background-color: #a81c1c;
-  color: white;
+  background-color: #07d3ee;
+  
   font-size: small;
  }
  h2 {
@@ -76,6 +79,17 @@ p {
   text-emphasis: none;
 }
 
+.gradeNA {
+  background-color: #d32c2c;
+}
+
+.gradeSufficient {
+  background-color: chartreuse;
+}
+
+.toBeDetermined {
+  background-color: rgb(170, 170, 170);
+}
 
 /* page contents */
 h1 {
@@ -110,26 +124,21 @@ ul{
 }
 
 
-
-
-
+/*textbox*/
 .modal {
-  background-color: #e3e001;
-  border-radius: 10px;
+  background-color: #e3df01e1;
+
+  border-radius: 3px;
   border-color: #000;
   color: #333;
   font-family: sans-serif;
   
   max-width: 50%;
-   
   width: 80%;
   
   padding: 10px;
   padding-left: 40px;
   }
-
-
-
 
 /*progress bar*/
 .progress {
@@ -154,15 +163,15 @@ ul{
 
 .sidenav {
   height: 100%;
-  width: 150px;
+  width: 130px;
   position: absolute;
-  background-color: #07D4EE;
-  right: 0;
-  color: black;
+  background-color: #07d3eee4;
+  right: 0px;
   padding: 20px;
   float: top;
   text-align: center;
-  z-index: 1;
+  top: 58px;
+  position: fixed;
   
   border-color: #000;
 }
