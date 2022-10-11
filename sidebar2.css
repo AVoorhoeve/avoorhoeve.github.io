@@ -7,18 +7,17 @@
 body {
   margin: 0;
   padding: 0;
-  
     background-image: url('/pictures/cyberpunk gif.gif');
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: 1550px 850px;
+    background-size: 1600px 810px;
     background-color: black;
-    
   }
 
 nav{
   width: 100%;
-  background: #333;
+  background: black;
   overflow: auto;
 }
 
@@ -47,7 +46,7 @@ nav a {
   text-align: center;
 }
 nav a:hover {
-    background:#a81c1c;
+    background:#FD0101;
     transition: 0.5s;
 }
 
@@ -127,7 +126,7 @@ ul{
 /*textbox*/
 .modal {
   background-color: #e3df01e1;
-
+  border-style:ridge;
   border-radius: 3px;
   border-color: #000;
   color: #333;
@@ -160,7 +159,7 @@ ul{
 .html {
   width: 0%;
 }
-
+/*sidebar*/
 .sidenav {
   height: 100%;
   width: 130px;
@@ -170,8 +169,29 @@ ul{
   padding: 20px;
   float: top;
   text-align: center;
-  top: 58px;
+  top: 55px;
   position: fixed;
-  
+  border-style:ridge;
   border-color: #000;
+}
+
+/*collapsable items*/
+summary {
+    display: flex;
+    cursor: pointer;
+    background-color: #07d3ee;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+/*super scary*/
+video {
+  position: center;
 }
