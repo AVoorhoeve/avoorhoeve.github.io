@@ -102,8 +102,6 @@ h2 {
   color: black;
 }
 
-
-
 h3{
   
   font-family: Arial, Helvetica, sans-serif;
@@ -158,6 +156,7 @@ ul{
 .html {
   width: 0%;
 }
+
 /*sidebar*/
 .sidenav {
   height: 100%;
@@ -173,7 +172,6 @@ ul{
   border-style:ridge;
   border-color: #000;
 }
-
 
 /*collapsable items*/
 summary {
@@ -191,11 +189,7 @@ summary {
     border-color: black;
 }
 
-/*collapsable questions faq*/
-
-
-
+/*Functions cdpr artikel*/
 button, input, optgroup, select, textarea {
     background-color: #07d3ee;
 }
-
